@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aerobic-ward-410501",
+  "private_key_id": "51bb0361ca0a9b5adefeb5a7e87567a3ce2f0644",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCy6YwfWS1tDhZb\nOkb/jBg884sZcO9YhkzoJSfoK+/zLm0IJ+LFFZipnIR/ZIhxhcwqNV7+6oliF6fA\n5lfmOTdgUlMAbn8rHPyWdtI57fWx9pl1MNv2VSZ5ffxHpzbXWHJbCqcu4IbNTobz\noF96pYpveO6OwuvSvjSMtudkctmq21KtVtCHxUMNbFCJhna5df9rl27uoG6Nznkb\nxL47Xj4KSeqN2cAF7/Pme26wYCzP6slVtOWoJ4SfCaVRc4V/y5OxFkJNAqcvUY3H\nqSTVBMlFazyBjkOS7/6kmpiSwTyqnc7nikdx+RtLTutID/I9l7hQF80HcqI60XPL\nQ4Xk2XvXAgMBAAECggEAToj2WUxsBFMKvUD3qXV1rku545EPf2x0lfK5cdDXo4fd\nlJbtlFXGja2G++TFgA+bb2u+J2gMpmJ74NE8BHNZO47noGjgqawvtFy0K3mpQFVf\nR3ILHDaEjRAgjdN4306T5CLpAErO4ZB27LqZLt07x3LuRPyLSBb2Ok6PhChmI/kk\nkzvEJoIHJrKn9kSy0VgfyrAPv99fhy5SkUWh9QslhLN9w/OQvBOQrqD+Fh51LIv4\nSXglGlBp6IFiva7T7z1o8stWXEScU75roTqMxAaFNgGROM7Ra3uZYzvlnNAB5T1X\nZQoixhYqmLSrGqiG1kzJbNv+2IDV5TmtEeSbVvP5AQKBgQD3bQCPEsAkY3PmWP+z\nMYY4Nx1XOpPZhH5XaIZk2lClW3DfNSXiHZtJyMPX9/yS0//hQZs2nWxZhHT5TCNR\nO2p+JcYQxax8z+Ju/R7iqVtCnK8aEhmU9vCo1xhaCf7hzaW94L614bJCtcu1xdKB\nUnOM2pFFMM++ZZ5KO8tjcmrlbQKBgQC5HL0hiy0mRlvzXWftw6OYMcXjc0Yb9Gb3\n2AwPY3/VexVkRJ14raG4no54VHgA+DSd2ZQAUbrYlhEDKnXrq5fT564VRQg0+hsf\nFDz2uLtiPZrAz/1GuO1aFaYLoHyZmzIwC1Z2Xe/Yc6Ht5btKxWDThkc1pRc6oYUC\nuuFg2WEP0wKBgBbWT8Pk5ik1qL/tHQTMIGhV5fZkKLtd+E9XDXiHkgQBMaTYgfuh\n4fBogHMRp5Vhze9bn9jlpNeKW0WbWnMn+cdU8zgfFrGaenrmEBC5svut/Jd6bjQK\nquHaoJvG6mirE444DUI6Z7qyju/jJ2/aTWIF1ny9aZ9YP8j4ReiS6fztAoGBAKzE\nI8jgynzEgiE69jq0s0Tif1zvQ2nnywpaO7dJGBA41hhE6eutshhK85Fe1Lmi7gi8\n/yLlJMvsE2ivAmu4NPXzb0guq6A2JYX2L4fdlhX0hTCbbjnJcsz3E4gaevAqJscs\nbb//oFCWa3VLSmhYmywQUPnCYVG5WhjYLm1jtPE9AoGAfOofiSkQDci7hWwwtwEO\njrC5x1VDkNpVkcGtE5RVPKEItJVA4MS9fsgI4M9kOAkK3VHLij3kszPkGHIappMv\nGs6azHxFIFYso8savHf2H5sPOk/2GwuyUcUTnmAU8bTtFJSwMh0hLv/EbcfM2JIT\nkYD6sHkG+Ci+m8dzAQqgUKg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcs-bq@aerobic-ward-410501.iam.gserviceaccount.com",
+  "client_id": "104456947505641117327",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-bq%40aerobic-ward-410501.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

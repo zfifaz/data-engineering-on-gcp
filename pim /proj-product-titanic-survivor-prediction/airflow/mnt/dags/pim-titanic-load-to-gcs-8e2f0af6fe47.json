@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aerobic-ward-410501",
+  "private_key_id": "8e2f0af6fe4725338eeb879813dfd777b94a4a4d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCRNECLmH9zdpF8\nb7weq+YzRJHhIfeforsAw4IR/H66GlXZhAcuomTnEgVAI3WAPC3c7MOM98iL5nJA\nx3WvTTCReAtfZd6/jn6gT9mz+2/A0h+C2pYZzRqpjl45aK7XL+EhDai/gzMifWr7\nQ+brPAtciUCLUKl9N5QUULo5h/MraOor/U08XVUV+Ci4TgemiTtHqt/H+FgymSfL\nEnBJW1Z38iG+ZhNWu5Nisrqbupq4bTPfR+Wq7tYFouvoE2AVnaqhvwj4evDQIXTp\nWcTrltbzoc5XhMA97vJlsa+0JqIHwMaWkvMicGLiJYP4ERAeLR2bEiNnTw06b9jw\nTJbQB1/zAgMBAAECggEAKH8wOT6w3R0GenQXPV6n90h6fxWgIE+cZBwi3K1VEsZh\nhybBcgosph1qhXbeQIOILwOBjoFU11/QIaz/b4LRtuCKG3Mn6rjtK/zZNM89XcO8\nshwQnOWNOBjSwqQljzJ1UWij1bXbvxTHj4hikNzQNmC5NaGrg5bKn9fb+EuoUESo\n5TYkiGbiU2aEc6XRNLMDfBGI5mIC5CyISJ1kk662/7PpOpt7ToXyywms4Ey6KAwH\n7gQhg69Le1c3KXBzy0IwA+HtyLNw5E500mVe5lJHOtajEhRKG7XRLcHdtQHGuD8C\niEVyjzcCt0I/i7ZtaNf5IdbCMHnArR4TTWDlXdCH0QKBgQDGIddYKIr2Gybl4VVM\nFX1RhE5hmOFKyMM262fG1LTnnkUj2gCLILJK192xHQykDx/IqjlHmfRgVaBYzA6d\nC2FRG78AcL99lxfNPd/sTXbS2FjxFQZ0XvwqOkwHlpgopZVsHCXgVkL8gnAGZxxo\nRJUWsIpngXRbhrdz5ZclFUPAVQKBgQC7nQcXhjrtztrmM8yLzJi52Qc2HFZeiHXw\nIRtWN62miC03gVY9I6vC8K00mvofCyUjWzVWG0Z+1qgW5VhNyVxSRHQI8Qoc7AOs\nMiBGNEeot2V3M+FQxeD7YY6sasOsI/ylloWvJncn7ocXdrWAVeQUViAIqTWh5CRn\nAqN6bmfHJwKBgBeDuK0L0sI2or0xqw/mlQLxsuO+Yy6e+RwxgBWG9RlwHUCOBPZ+\nIOrlB7iXfAKUkO8d1MJ8sRYl02v2e92Dlj8sDdUdjHx5TCfdqg+/edS4PIYQOr3g\n8AiK9q8H3nMkg8Fa7dvcIQMa7/SylBqD2TXiKery4D5klK06mF+cUHgpAoGActuN\nje9VgGVVSf2ISkX1ckHV0mDC15j/awU5sSzhGMThuctqun9uFig2QbBnVD4EfILI\nQnDsVZagzXOW/fg6lvrldtvqbw5mqTL+4zv6auXsLnAKjuK1+/Ab4p5yMJ7Pe6iN\nK0+HP2EeP1UjhPAQdArODb9Z4ETFrHLHFpsk2Z0CgYAZYV7k3sGpH9lKKeBuMb+V\nwnB/EO7yH2xEnJMNH1zq7dGT9bJsjWyDxQqime4N9IWSR8c6wDceU5UaMkn1d5Ty\n18i+pJzBXWjU40Rxd4aUykOeyD8fqtlJS4MBrnWR8jJYJzD+U+cP9MaQvlYBBagg\nslMJY1KilA+umxWHuPAFNA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "pim-titanic-load-to-gcs@aerobic-ward-410501.iam.gserviceaccount.com",
+  "client_id": "103518183423751188254",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pim-titanic-load-to-gcs%40aerobic-ward-410501.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

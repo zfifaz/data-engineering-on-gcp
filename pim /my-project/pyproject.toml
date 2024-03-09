@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "my-project"
+version = "0.1.0"
+description = ""
+authors = ["zfifaz <107416724+zfifaz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.3.2"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

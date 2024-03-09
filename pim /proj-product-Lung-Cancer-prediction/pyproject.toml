@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry add pandas"
+version = "0.1.0"
+description = ""
+authors = ["zfifaz <107416724+zfifaz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+sqlalchemy = "^2.0.27"
+pymysql = "^1.1.0"
+streamlit = "^1.31.1"
+google-cloud-bigquery = "^3.17.2"
+db-dtypes = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
