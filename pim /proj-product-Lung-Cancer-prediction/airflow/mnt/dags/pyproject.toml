@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dags"
+version = "0.1.0"
+description = ""
+authors = ["zfifaz <107416724+zfifaz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.32.0"
+google-cloud = "^0.34.0"
+google-cloud-bigquery = "^3.18.0"
+db-dtypes = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

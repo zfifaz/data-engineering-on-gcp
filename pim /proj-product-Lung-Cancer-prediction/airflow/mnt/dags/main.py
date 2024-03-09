@@ -3,27 +3,79 @@ import json
 from google.cloud import bigquery
 from google.oauth2 import service_account
 
-st.title("Titanic Survivor Predictor")
+st.title("Lung Cancer Predictor")
 
 age = st.slider("Age", 0, 100, 1)
 print(age)
 
 # data = st.slider("Test", 0, 5, 1)
 # print(data)
+Gendermapper = {"Male":"M","Female":"F"}
+Boomapper = {False:1, True:2}
 
-option = st.selectbox(
-   "Sex",
+Gender = st.selectbox(
+   "Gender",
    ("Male", "Female"),
    index=None,
-   placeholder="Select Sex",
+   placeholder="Select Gender",
 )
-st.write('You selected:', option)
+
+SMOKING = st.toggle(
+    "SMOKING"
+)
+YELLOW_FINGERS = st.toggle(
+    "YELLOW_FINGERS"
+)
+
+ANXIETY = st.toggle(
+    "ANXIETY"
+)
+
+PEER_PRESSURE = st.toggle(
+    "PEER_PRESSURE"
+)
+
+CHRONIC_DISEASE = st.toggle(
+    "CHRONIC_DISEASE"
+)
+
+FATIGUE = st.toggle(
+    "FATIGUE"
+)
+
+ALLERGY = st.toggle(
+    "ALLERGY"
+)
+
+WHEEZING = st.toggle(
+    "WHEEZING"
+)
+
+ALCOHOL_CONSUMING = st.toggle(
+    "ALCOHOL_CONSUMING"
+)
+
+COUGHING = st.toggle(
+    "COUGHING"
+)
+
+SHORTNESS_OF_BREATH = st.toggle(
+    "SHORTNESS_OF_BREATH"
+)
+
+SWALLOWING_DIFFICULTY = st.toggle(
+    "SWALLOWING_DIFFICULTY"
+)
+
+CHEST_PAIN = st.toggle(
+    "CHEST_PAIN"
+)
 
 if st.button("Predict"):
     # read model
     # make prediction
 
-    keyfile_bigquery = "/workspaces/data-engineering-on-gcp/proj-product-titanic-survivor-prediction/airflow/mnt/dags/pim-titanic-load-gcs-to-bigquery-b6e08f465048.json"
+    keyfile_bigquery = "./lung-cancer-load-gcs-to-bigquery-b6e08f465048.json"
     service_account_info_bigquery = json.load(open(keyfile_bigquery))
     credentials_bigquery = service_account.Credentials.from_service_account_info(
         service_account_info_bigquery
@@ -36,21 +88,19 @@ if st.button("Predict"):
     )
     
     query = f"""
-        select * from ml.predict(model `pim_titanic_12345.survivor_predictor_2`, (
-                select '{option}' as Sex, {age} as Age
+        select * from ml.predict(model `lung_cancer_09032024.cancer_predictor_1`
+, (
+                select '{Gendermapper[Gender]}' as GENDER, {age} as AGE,{Boomapper[SMOKING]} as SMOKING,	{Boomapper[YELLOW_FINGERS]} as YELLOW_FINGERS,	{Boomapper[ANXIETY]} as ANXIETY,{Boomapper[PEER_PRESSURE]} as PEER_PRESSURE,{Boomapper[CHRONIC_DISEASE]} as CHRONIC_DISEASE,	{Boomapper[FATIGUE]} as FATIGUE, 	{Boomapper[ALLERGY]} as ALLERGY,	{Boomapper[WHEEZING]} as WHEEZING,	{Boomapper[ALCOHOL_CONSUMING]} as ALCOHOL_CONSUMING,	{Boomapper[COUGHING]} as COUGHING,	{Boomapper[SHORTNESS_OF_BREATH]} as SHORTNESS_OF_BREATH,	{Boomapper[SWALLOWING_DIFFICULTY]} as SWALLOWING_DIFFICULTY,	{Boomapper[CHEST_PAIN]} as CHEST_PAIN
             )
         )
     """
     df = bigquery_client.query(query).to_dataframe()
     print(df.head())
 
-    survived = df["predicted_label"][0]
-    if survived:
-        result = "Survived"
-    else:
-        result = "Died.. ☠️"
+    LUNG_CANCER = df["predicted_label"][0]
 
-    st.write(result)
+
+    st.write(LUNG_CANCER)
     # if True:
     #     st.subheader(f'This is good 👍')
     # else:

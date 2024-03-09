@@ -20,7 +20,7 @@ def _load_to_gcs():
     location = "us-central1"
 
     # Prepare and Load Credentials to Connect to GCP Services
-    keyfile_gcs = "/opt/airflow/dags/pim-titanic-load-to-gcs-8e2f0af6fe47.json"
+    keyfile_gcs = "/opt/airflow/dags/lung-cancer-load-to-gcs-8e2f0af6fe47.json"
     service_account_info_gcs = json.load(open(keyfile_gcs))
     credentials_gcs = service_account.Credentials.from_service_account_info(
         service_account_info_gcs
@@ -51,7 +51,7 @@ def _load_from_gcs_to_bigquery():
     bucket_name = Variable.get("lung_cancer_bucket_name")
     destination_blob_name = f"{BUSINESS_DOMAIN}/Lung_Cancer_Dataset.csv"
 
-    keyfile_bigquery = "/opt/airflow/dags/pim-titanic-load-gcs-to-bigquery-b6e08f465048.json"
+    keyfile_bigquery = "/opt/airflow/dags/lung-cancer-load-gcs-to-bigquery-b6e08f465048.json"
     service_account_info_bigquery = json.load(open(keyfile_bigquery))
     credentials_bigquery = service_account.Credentials.from_service_account_info(
         service_account_info_bigquery
