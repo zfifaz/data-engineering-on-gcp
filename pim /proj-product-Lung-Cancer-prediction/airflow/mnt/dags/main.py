@@ -101,9 +101,9 @@ if st.button("Predict"):
 
 
     st.write(LUNG_CANCER)
-    # if True:
-    #     st.subheader(f'This is good 👍')
-    # else:
-    #     st.subheader(f'This is bad 👎')
+    if LUNG_CANCER :
+        st.subheader(f'ยินดีด้วยคุณเป็นมะเร็งแล้ว 👍')
+    else:
+        st.subheader(f'เสียใจด้วยคุณไม่ได้เป็นมะเร็ง 👎')
 
     # st.write("Results here")
